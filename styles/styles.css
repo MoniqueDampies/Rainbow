@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    background-image: url("../images/pic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+margin-top: 0px;
+margin-bottom: 10px;
+font-family: sans-serif;
+font-size: 6rem;
+background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+}
+
+main {
+margin: 2rem;
+height: 160px;
+overflow: hidden;
+}
+
+div {
+padding: 10px 10px;
+width: 0px;
+height: 60%;
+text-align: center;
+color: white;
+border-radius: 50rem;
+margin: 10rem auto;
+}
+
+.rainbow {
+box-shadow:
+0 0 0 5px white,
+0 0 0 20px violet,
+0 0 0 40px purple,
+0 0 0 60px blue,
+0 0 0 80px #00FF00,
+0 0 0 100px yellow,
+0 0 0 120px orange,
+0 0 0 140px red;
+}
